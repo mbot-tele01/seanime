@@ -1,0 +1,27 @@
+version = '1.4.3'
+
+[cache]
+dir = '$SEANIME_DATA_DIR/cache'
+
+[database]
+name = 'seanime'
+
+[logs]
+dir = '$SEANIME_DATA_DIR/logs'
+
+[manga]
+backupdir = '$SEANIME_DATA_DIR/cache/manga'
+downloaddir = '$SEANIME_DATA_DIR/manga'
+
+[offline]
+assetdir = '$SEANIME_DATA_DIR/offline/assets'
+dir = '$SEANIME_DATA_DIR/offline'
+
+[server]
+host = '127.0.0.1'
+offline = false
+port = 43211
+
+[web]
+assetdir = '$SEANIME_DATA_DIR/assets'
+dir = '$SEANIME_WORKING_DIR/web'
